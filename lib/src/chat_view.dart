@@ -386,7 +386,7 @@ class DashChatState extends State<DashChat> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      physics: ClampingScrollPhysics(),
+      physics: NeverScrollableScrollPhysics(),
       child: Container(
         height: widget.height != null
             ? widget.height
